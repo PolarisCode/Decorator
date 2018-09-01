@@ -8,7 +8,7 @@ namespace Decorator
         {
             Car c = new CompactCar();
             c = new LeatherDecorator(c);
-            //c = new SunRoof(c);
+            c = new SunRoof(c);
 
             System.Console.WriteLine(c.Description);
             System.Console.WriteLine(c.Price);
